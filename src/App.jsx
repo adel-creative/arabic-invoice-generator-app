@@ -1,12 +1,8 @@
-import React from 'react';
-import InvoiceGeneratorApp from './components/InvoiceGeneratorApp';
+import React from 'react'
+import InvoiceGeneratorApp from './components/InvoiceGeneratorApp'
 
 function App() {
-  return (
-    <div className="App">
-      <InvoiceGeneratorApp />
-    </div>
-  );
+  return <InvoiceGeneratorApp />
 }
 
-export default App;
+export default App
